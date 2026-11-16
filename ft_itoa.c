@@ -76,11 +76,9 @@ void	ft_start(char *str, long int n)
 char	*ft_itoa(int n)
 {
 	long int	nb;
-	int			i;
 	char		*str;
 
 	nb = n;
-	i = 0;
 	str = malloc(sizeof(char) * ft_count(nb) + 1);
 	if (!str)
 		return (NULL);
